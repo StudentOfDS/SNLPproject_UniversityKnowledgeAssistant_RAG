@@ -1,0 +1,475 @@
+{
+  "note": "Relevance is judged by phrases that appear in the source text, so the benchmark does not depend on chunk ids and survives re-chunking.",
+  "answerable": [
+    {
+      "question": "What is the minimum attendance needed to sit the term-end exam?",
+      "relevant_phrases": [
+        "80% or higher attendance"
+      ],
+      "answer_keywords": [
+        "80%"
+      ]
+    },
+    {
+      "question": "Can a student with 75% attendance still appear for the exam?",
+      "relevant_phrases": [
+        "between 70% and 80%"
+      ],
+      "answer_keywords": [
+        "70%",
+        "80%"
+      ]
+    },
+    {
+      "question": "When does the term end exam start in the odd semester?",
+      "relevant_phrases": [
+        "Term End Exam | November 16"
+      ],
+      "answer_keywords": [
+        "November 16"
+      ]
+    },
+    {
+      "question": "When is the re-exam in January 2027?",
+      "relevant_phrases": [
+        "Re-exam | January 28, 2027"
+      ],
+      "answer_keywords": [
+        "January 28"
+      ]
+    },
+    {
+      "question": "When is the Diwali vacation?",
+      "relevant_phrases": [
+        "Diwalivacation"
+      ],
+      "answer_keywords": [
+        "November"
+      ]
+    },
+    {
+      "question": "When does the odd semester commence?",
+      "relevant_phrases": [
+        "Commencement of Term | July 13, 2026"
+      ],
+      "answer_keywords": [
+        "July 13"
+      ]
+    },
+    {
+      "question": "Which day of the week is Republic Day in 2026?",
+      "relevant_phrases": [
+        "26-Jan-26 Monday Republic Day"
+      ],
+      "answer_keywords": [
+        "Monday"
+      ]
+    },
+    {
+      "question": "Is Christmas a holiday in 2026?",
+      "relevant_phrases": [
+        "25-Dec-26 Friday Christmas"
+      ],
+      "answer_keywords": [
+        "25-Dec",
+        "Friday"
+      ],
+      "expected_polarity": "yes"
+    },
+    {
+      "question": "What date is Dussehra in 2026?",
+      "relevant_phrases": [
+        "20-Oct-26 Tuesday Dushera"
+      ],
+      "answer_keywords": [
+        "20-Oct"
+      ]
+    },
+    {
+      "question": "Is ragging allowed on campus?",
+      "relevant_phrases": [
+        "zero-tolerance policy towards ragging"
+      ],
+      "answer_keywords": [
+        "prohibited",
+        "zero-tolerance"
+      ],
+      "expected_polarity": "no"
+    },
+    {
+      "question": "How can I apply for revaluation of an answer book?",
+      "relevant_phrases": [
+        "only through the Student Portal"
+      ],
+      "answer_keywords": [
+        "Student Portal"
+      ]
+    },
+    {
+      "question": "What happens if a student repeats exam malpractice?",
+      "relevant_phrases": [
+        "double the punishment"
+      ],
+      "answer_keywords": [
+        "double"
+      ]
+    },
+    {
+      "question": "Can I defer my admission after the programme has started?",
+      "relevant_phrases": [
+        "admission deferment"
+      ],
+      "answer_keywords": [
+        "not"
+      ],
+      "expected_polarity": "no"
+    },
+    {
+      "question": "Do I have to pay a deposit to defer admission?",
+      "relevant_phrases": [
+        "non-refundable deposit"
+      ],
+      "answer_keywords": [
+        "deposit"
+      ]
+    },
+    {
+      "question": "Do students have to wear an identity card?",
+      "relevant_phrases": [
+        "Identity Card, which they are required, to wear mandatorily"
+      ],
+      "answer_keywords": [
+        "mandatorily",
+        "wear"
+      ]
+    },
+    {
+      "question": "Is plagiarism treated as misconduct?",
+      "relevant_phrases": [
+        "Similarity index / plagiarism is a serious offense"
+      ],
+      "answer_keywords": [
+        "serious",
+        "misconduct"
+      ],
+      "expected_polarity": "yes"
+    },
+    {
+      "question": "Can I use my mobile phone in the library?",
+      "relevant_phrases": [
+        "use of mobile phones in the Library is strictly prohibited"
+      ],
+      "answer_keywords": [
+        "prohibited"
+      ],
+      "expected_polarity": "no"
+    },
+    {
+      "question": "What should students wear on campus?",
+      "relevant_phrases": [
+        "dress in formals"
+      ],
+      "answer_keywords": [
+        "formal"
+      ]
+    },
+    {
+      "question": "What happens if fees are not paid before the due date?",
+      "relevant_phrases": [
+        "Late fee will be levied"
+      ],
+      "answer_keywords": [
+        "late fee"
+      ]
+    },
+    {
+      "question": "Which items are not allowed in the examination hall?",
+      "relevant_phrases": [
+        "bring any books, notes, scribbling papers, mobile phones"
+      ],
+      "answer_keywords": [
+        "mobile"
+      ]
+    },
+    {
+      "question": "When does the winter vacation start?",
+      "relevant_phrases": [
+        "Winter Vacation | December26"
+      ],
+      "answer_keywords": [
+        "December"
+      ]
+    },
+    {
+      "question": "When does the even semester commence?",
+      "relevant_phrases": [
+        "Commencement of Term | January 2, 2027"
+      ],
+      "answer_keywords": [
+        "January 2"
+      ]
+    },
+    {
+      "question": "When is Mid Term Test II in the even semester?",
+      "relevant_phrases": [
+        "Mid Term Test II | March 15, 2027"
+      ],
+      "answer_keywords": [
+        "March 15"
+      ]
+    },
+    {
+      "question": "When is the term end exam in the even semester?",
+      "relevant_phrases": [
+        "Term End Exam | April 30, 2027"
+      ],
+      "answer_keywords": [
+        "April 30"
+      ]
+    },
+    {
+      "question": "When does the next academic year commence?",
+      "relevant_phrases": [
+        "Commencement of next Academic year"
+      ],
+      "answer_keywords": [
+        "July 12, 2027"
+      ]
+    },
+    {
+      "question": "When is the TEE lab exam in the odd semester?",
+      "relevant_phrases": [
+        "TEE Lab Exam | December 05"
+      ],
+      "answer_keywords": [
+        "December 05"
+      ]
+    },
+    {
+      "question": "What is the date of Gudhi Padwa?",
+      "relevant_phrases": [
+        "19-Mar-26 Thursday Gudhi Padwa"
+      ],
+      "answer_keywords": [
+        "19-Mar"
+      ]
+    },
+    {
+      "question": "When is Holi in 2026?",
+      "relevant_phrases": [
+        "03-Mar-26 Tuesday Holi"
+      ],
+      "answer_keywords": [
+        "03-Mar"
+      ]
+    },
+    {
+      "question": "Which day is Independence Day in 2026?",
+      "relevant_phrases": [
+        "15-Aug-26 Saturday Independence Day"
+      ],
+      "answer_keywords": [
+        "Saturday"
+      ]
+    },
+    {
+      "question": "When is Ganesh Chaturthi?",
+      "relevant_phrases": [
+        "14-Sept-26 Monday Ganesh Chaturthi"
+      ],
+      "answer_keywords": [
+        "14-Sept"
+      ]
+    },
+    {
+      "question": "Is Good Friday a holiday?",
+      "relevant_phrases": [
+        "03-April -26 Friday Good Friday"
+      ],
+      "answer_keywords": [
+        "Friday"
+      ],
+      "expected_polarity": "yes"
+    },
+    {
+      "question": "When is Maharashtra Day in 2026?",
+      "relevant_phrases": [
+        "01-May-26 Friday Maharashtra Day"
+      ],
+      "answer_keywords": [
+        "01-May"
+      ]
+    },
+    {
+      "question": "What is the maximum time allowed to complete a 2 year programme?",
+      "relevant_phrases": [
+        "2 years 4 years"
+      ],
+      "answer_keywords": [
+        "4 years"
+      ]
+    },
+    {
+      "question": "Are photography and filming allowed on campus?",
+      "relevant_phrases": [
+        "Photography, filming, videotaping and audio-taping in the Campus premises/ University are strictly prohibited"
+      ],
+      "answer_keywords": [
+        "prohibited"
+      ],
+      "expected_polarity": "no"
+    },
+    {
+      "question": "What should I do if I forget my ID card?",
+      "relevant_phrases": [
+        "In case a student forgets to carry an ID card"
+      ],
+      "answer_keywords": [
+        "security"
+      ]
+    },
+    {
+      "question": "Can I use another student's ID card?",
+      "relevant_phrases": [
+        "must not use the ID card of any other student"
+      ],
+      "answer_keywords": [
+        "penalised"
+      ],
+      "expected_polarity": "no"
+    },
+    {
+      "question": "Is sexual harassment tolerated?",
+      "relevant_phrases": [
+        "will not be tolerated"
+      ],
+      "answer_keywords": [
+        "not be tolerated"
+      ],
+      "expected_polarity": "no"
+    },
+    {
+      "question": "Where should I park my vehicle?",
+      "relevant_phrases": [
+        "park their vehicles outside the premises"
+      ],
+      "answer_keywords": [
+        "outside"
+      ]
+    },
+    {
+      "question": "Who should I approach for attendance exemptions?",
+      "relevant_phrases": [
+        "must refrain from approaching the visiting and full-time faculty members for attendance"
+      ],
+      "answer_keywords": [
+        "coordinator"
+      ]
+    },
+    {
+      "question": "How long does the ombudsman have to dispose of a case?",
+      "relevant_phrases": [
+        "dispose of cases within one month"
+      ],
+      "answer_keywords": [
+        "one month"
+      ]
+    },
+    {
+      "question": "What reimbursement do students get for Grade A contests?",
+      "relevant_phrases": [
+        "GRADE A will be provided with 100% reimbursements"
+      ],
+      "answer_keywords": [
+        "100%"
+      ]
+    },
+    {
+      "question": "Do I have to log out of the computer after using it?",
+      "relevant_phrases": [
+        "must log out at the end of each logged in session"
+      ],
+      "answer_keywords": [
+        "log out"
+      ]
+    },
+    {
+      "question": "Do students pay a fee to re-appear for an examination?",
+      "relevant_phrases": [
+        "will be required to pay re-examination fees"
+      ],
+      "answer_keywords": [
+        "fee"
+      ]
+    },
+    {
+      "question": "Can a grievance application be made after the due date?",
+      "relevant_phrases": [
+        "received after the stipulated due date shall not be entertained"
+      ],
+      "answer_keywords": [
+        "not be entertained"
+      ],
+      "expected_polarity": "no"
+    },
+    {
+      "question": "Is the term end examination compulsory?",
+      "relevant_phrases": [
+        "Term End examination is a compulsory component"
+      ],
+      "answer_keywords": [
+        "compulsory"
+      ],
+      "expected_polarity": "yes"
+    },
+    {
+      "question": "Do students have to fill an anti ragging undertaking?",
+      "relevant_phrases": [
+        "fill in an Anti Raging Undertaking"
+      ],
+      "answer_keywords": [
+        "undertaking",
+        "each year"
+      ]
+    },
+    {
+      "question": "Can I leave my bag unattended in the library?",
+      "relevant_phrases": [
+        "Bags and other personal possessions should not be left"
+      ],
+      "answer_keywords": [
+        "not"
+      ],
+      "expected_polarity": "no"
+    },
+    {
+      "question": "Which body is the apex student body of the university?",
+      "relevant_phrases": [
+        "apex student body of the University"
+      ],
+      "answer_keywords": [
+        "Council"
+      ]
+    }
+  ],
+  "unanswerable": [
+    "What are the library opening hours?",
+    "What is on the cafeteria menu today?",
+    "What is the Wi-Fi password for the hostel?",
+    "Who won the 2022 FIFA World Cup?",
+    "What is the capital of France?",
+    "How do I bake a chocolate cake?",
+    "Explain quantum entanglement.",
+    "Who is the CEO of Tesla?",
+    "What is the weather in Mumbai tomorrow?",
+    "What is the price of bitcoin?",
+    "How many planets are in the solar system?",
+    "Write a poem about the ocean.",
+    "What was the average placement package last year?",
+    "What is the cricket team's match schedule?",
+    "How much does a samosa cost in the canteen?",
+    "Which professor teaches machine learning?",
+    "What is the syllabus of the data structures course?",
+    "How many floors does the library building have?"
+  ]
+}

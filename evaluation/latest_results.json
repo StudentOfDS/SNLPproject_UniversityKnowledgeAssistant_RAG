@@ -1,0 +1,85 @@
+{
+  "documents": [
+    "Academic Calendar - All Programs.pdf",
+    "Holiday list 2026.pdf",
+    "SRB_MPSTME_2024-25_sswFVjxQKq.pdf"
+  ],
+  "chunks": 433,
+  "semantic_search": false,
+  "llm": null,
+  "retrieval": {
+    "tf-idf only": {
+      "recall@5": 0.854,
+      "mrr": 0.628
+    },
+    "language model only": {
+      "recall@5": 0.854,
+      "mrr": 0.679
+    },
+    "tf-idf + language model (rank fusion)": {
+      "recall@5": 0.833,
+      "mrr": 0.639
+    },
+    "+ Naive Bayes document router": {
+      "recall@5": 0.875,
+      "mrr": 0.75
+    }
+  },
+  "stemmers": {
+    "snowball": {
+      "recall@5": 0.854,
+      "mrr": 0.628
+    },
+    "porter": {
+      "recall@5": 0.854,
+      "mrr": 0.628
+    },
+    "lancaster": {
+      "recall@5": 0.833,
+      "mrr": 0.609
+    },
+    "none": {
+      "recall@5": 0.833,
+      "mrr": 0.614
+    }
+  },
+  "lm_smoothing": {
+    "dirichlet": {
+      "recall@5": 0.854,
+      "mrr": 0.679
+    },
+    "jelinek_mercer": {
+      "recall@5": 0.854,
+      "mrr": 0.688
+    },
+    "laplace": {
+      "recall@5": 0.729,
+      "mrr": 0.516
+    }
+  },
+  "pipeline": {
+    "answerable_questions": 48,
+    "answered": 41,
+    "answers_with_expected_keyword": 33,
+    "answers_citing_a_relevant_chunk": 38,
+    "wrongly_refused": [
+      "What is the minimum attendance needed to sit the term-end exam?",
+      "Can a student with 75% attendance still appear for the exam?",
+      "When is the Diwali vacation?",
+      "What happens if a student repeats exam malpractice?",
+      "Is plagiarism treated as misconduct?",
+      "When does the winter vacation start?",
+      "What is the date of Gudhi Padwa?"
+    ],
+    "unanswerable_questions": 18,
+    "refused": 17,
+    "wrongly_answered": [
+      "What is the syllabus of the data structures course?"
+    ],
+    "yes_no_verdicts_among_answered": {
+      "correct": 5,
+      "wrong": 1,
+      "none": 5
+    }
+  }
+}
